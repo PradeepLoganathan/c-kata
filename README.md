@@ -14,7 +14,7 @@ Before diving into the tutorials, ensure you have a development environment set 
 
 2. **Data Types and Variables**
    - Understand different data types and how to declare variables.
-   - [Data Types and Variables Tutorial](./03-Variables-and-datatypes/03_data_types_variables.md)
+   - [Data Types and Variables Tutorial](./03-Variables-and-datatypes/03_variables_data_types.md)
 
 3. **Control Structures**
    - Master conditional statements and loops to control the flow of your programs.
