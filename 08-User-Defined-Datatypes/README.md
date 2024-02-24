@@ -2,11 +2,7 @@
 
 C provides a set of fundamental data types like int (for integers), float (for floating-point numbers), and char (for characters). These serve as the building blocks for a wide range of programs.  However, as you tackle more complex problems, you'll often find yourself needing to represent data in ways that go beyond these basic types.
 
-This is where user-defined data types come into play.  They empower you to design custom data structures that precisely match the requirements of your programs.  Think of them as blueprints for creating variables that can hold multiple pieces of related data under a single name.
-
-- User-defined data types allow you to model real-world entities or abstract concepts in ways that make your code more intuitive to work with.
-- They are powerful tools you can use to create custom data representations.
-- They improve your code's structure by grouping related information together and making it easier to reason about.
+This is where user-defined data types come into play.  They empower you to design custom data structures that precisely match the requirements of your programs.  Think of them as blueprints for creating variables that can hold multiple pieces of related data under a single name. User-defined data types allow you to model real-world entities or abstract concepts in ways that make your code more intuitive to work with. They are powerful tools you can use to create custom data representations. They improve your code's structure by grouping related information together and making it easier to reason about.
 
 
 In this section, we'll explore the following ways to create your own data types:
@@ -66,6 +62,23 @@ printf("Roll Number: %d\n", student1.roll_no);
 // Example: Calculate average grade
 float average = (student1.grades[0] + student1.grades[1] + ... ) / 5.0; 
 ```
+## Key Points
+
+- Memory Allocation: Each instance of a structure occupies a contiguous block of memory large enough to hold all its members.
+- Scope and Lifetime: Structure instances, like other variables, have scope and lifetime based on where they are declared.
+
+
+## Complete example
+
+An enhanced example for using structures is in the student-grades.c program. This enhanced example provides a comprehensive demonstration of using structures in C, showing how to define them, assign values to their members, and use them in conjunction with arrays and functions.
+
+- Student Structure: The Student structure is defined to include a name, roll number, an array of grades, and a field for the average grade. This demonstrates how structures can group related data types.
+
+- Assigning Values: The strcpy function is used to assign a string to the name field of the structure since array types, including strings, cannot be assigned directly in C. Integer values are directly assigned to roll_no and each element of the grades array.
+
+- Calculate Average Grade: A function calculateAverage is defined to calculate the average grade from the array of grades. This illustrates how arrays within structures can be manipulated and how structures can be passed to functions (though in this code snippet, we're passing the grades array directly for simplicity).
+
+- Printing Details: The program prints out the student's details, including the grades and the calculated average. This demonstrates accessing structure members and using them in functions like printf.
 
 # Unions (union)
 
