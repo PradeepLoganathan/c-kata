@@ -82,20 +82,44 @@ An enhanced example for using structures is in the student-grades.c program. Thi
 
 # Unions (union)
 
-A union allows you to store different data types in the same memory location. You can define a union with many members, but only one member can contain a value at any given time.
+A union allows you to store different data types in the same memory location. You can define a union with many members, but only one member can contain a value at any given time. Think of it as... A storage box that can be repurposed to hold different items, but only one item fits at a given time.
 
 ## Defining Unions
 
 ```
 union Data {
-    int integer;
-    float decimal;
-    char character;
+    int intValue;
+    float floatValue;
+    char strValue[20];
 };
 ```
+- union Data { ... }; defines a new union type called "Data".
+- Members intValue, floatValue, and strValue all share the same memory location.
+- The size of the union will be determined by the size of the largest member (strValue in this case).
+- You can store a value in one member, and then later retrieve it (potentially reinterpreting it) as a different type.
+
+## Key Uses for Unions
+
+- Memory Conservation: Useful in very memory-constrained systems where you need to store different types of data, but not all at the same time.
+- Data Interpretation: Used to treat the same sequence of bytes in multiple ways. For example: Receiving network data that could be interpreted differently based on a type field.
+- Manipulating the individual bytes of a floating-point number.
+
+## Important Considerations
+
+- Responsibility: Using unions correctly requires careful attention. As the programmer, you're responsible for keeping track of the type of data currently stored in the union.
+- Type Safety: Incorrectly accessing union members can lead to unexpected results due to misinterpreting data.
 
 ## Using Unions
 
+```C
+union Data data;
+
+data.intValue = 10; 
+printf("Integer Value: %d\n", data.intValue); 
+
+data.floatValue = 3.14159;  // Overwrite the previous value
+printf("Float Value: %f\n", data.floatValue); 
+```
 # Enumerations (enum)
 
 An enumeration is a user-defined data type that consists of integral constants. Each element in an enumeration is assigned an integer value, starting from 0 by default.
