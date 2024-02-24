@@ -16,13 +16,18 @@ Before diving into the tutorials, ensure you have a development environment set 
    - Understand different data types and how to declare variables.
    - [Data Types and Variables Tutorial](./03-Variables-and-datatypes)
 
+2. **Input and Output**
+   - Understand how to use the console for output and getting inputs.
+   - [Input and Output Tutorial](./04-Input-and-Output/)
+
+
 3. **Control Structures**
    - Master conditional statements and loops to control the flow of your programs.
-   - [Control Structures Tutorial](.04_control_structures/04_control_structures.md)
+   - [Control Structures Tutorial](./05-Control-Structures/)
 
 4. **Functions**
    - Learn about functions, parameter passing, and return values.
-   - [Functions Tutorial](./05_functions/05_functions.md)
+   - [Functions Tutorial](./06-Functions/)
 
 5. **Arrays and Strings**
    - Dive into arrays and strings, exploring how to manipulate them.
