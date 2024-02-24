@@ -10,11 +10,11 @@ Before diving into the tutorials, ensure you have a development environment set 
 
 1. **Hello, World! Program**
    - Learn to write, compile, and execute your first C program.
-   - [Hello, World! Tutorial](./02-HelloWorld/02_hello_world.md)
+   - [Hello, World! Tutorial](./02-HelloWorld)
 
 2. **Data Types and Variables**
    - Understand different data types and how to declare variables.
-   - [Data Types and Variables Tutorial](./03-Variables-and-datatypes/03_variables_data_types.md)
+   - [Data Types and Variables Tutorial](./03-Variables-and-datatypes)
 
 3. **Control Structures**
    - Master conditional statements and loops to control the flow of your programs.
