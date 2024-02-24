@@ -8,6 +8,10 @@ Before diving into the tutorials, ensure you have a development environment set 
 
 ## Tutorial Overview
 
+1. **Installing Prerequsites**
+   - Lets get started by installing the necessary prerequisites to write, compile and debug C programs.
+   - [Environment Setup](./01-EnvSetup/)
+   
 1. **Hello, World! Program**
    - Learn to write, compile, and execute your first C program.
    - [Hello, World! Tutorial](./02-HelloWorld)
@@ -31,7 +35,7 @@ Before diving into the tutorials, ensure you have a development environment set 
 
 5. **Arrays and Strings**
    - Dive into arrays and strings, exploring how to manipulate them.
-   - [Arrays and Strings Tutorial](./06_arrays_strings.md)
+   - [Arrays and Strings Tutorial](./07-Arrays-and-strings/)
 
 6. **Pointers**
    - Uncover the power and complexity of pointers in C.
