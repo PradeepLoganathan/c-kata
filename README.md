@@ -11,49 +11,53 @@ Before diving into the tutorials, ensure you have a development environment set 
 1. **Installing Prerequsites**
    - Lets get started by installing the necessary prerequisites to write, compile and debug C programs.
    - [Environment Setup](./01-EnvSetup/)
-   
-1. **Hello, World! Program**
+
+2. **Hello, World! Program**
    - Learn to write, compile, and execute your first C program.
    - [Hello, World! Tutorial](./02-HelloWorld)
 
-2. **Data Types and Variables**
+3. **Data Types and Variables**
    - Understand different data types and how to declare variables.
    - [Data Types and Variables Tutorial](./03-Variables-and-datatypes)
 
-2. **Input and Output**
+4. **Input and Output**
    - Understand how to use the console for output and getting inputs.
    - [Input and Output Tutorial](./04-Input-and-Output/)
 
 
-3. **Control Structures**
+5. **Control Structures**
    - Master conditional statements and loops to control the flow of your programs.
    - [Control Structures Tutorial](./05-Control-Structures/)
 
-4. **Functions**
+6. **Functions**
    - Learn about functions, parameter passing, and return values.
    - [Functions Tutorial](./06-Functions/)
 
-5. **Arrays and Strings**
+7. **Arrays and Strings**
    - Dive into arrays and strings, exploring how to manipulate them.
    - [Arrays and Strings Tutorial](./07-Arrays-and-strings/)
 
-6. **Pointers**
+8. **User Defined Datatypes**
+   - Dive into arrays and strings, exploring how to manipulate them.
+   - [User Defined Datatypes](./08-User-Defined-Datatypes/)
+
+9. **Pointers**
    - Uncover the power and complexity of pointers in C.
    - [Pointers Tutorial](./07_pointers.md)
 
-7. **Structures**
+10. **Structures**
    - Group different data types into structures.
    - [Structures Tutorial](./08_structures.md)
 
-8. **File I/O**
+11. **File I/O**
    - Perform file operations, including reading from and writing to files.
    - [File I/O Tutorial](./09_file_io.md)
 
-9. **Advanced Topics**
+12. **Advanced Topics**
    - Explore dynamic memory management, bitwise operations, and system-level programming.
    - [Advanced Topics Tutorial](./10_advanced_topics.md)
 
-10. **Mini Projects**
+13. **Mini Projects**
     - Apply what you've learned in comprehensive mini-projects.
     - [Mini Projects](./11_mini_projects.md)
 
