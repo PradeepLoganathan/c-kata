@@ -18,11 +18,11 @@ Before diving into the tutorials, ensure you have a development environment set 
 
 3. **Control Structures**
    - Master conditional statements and loops to control the flow of your programs.
-   - [Control Structures Tutorial](./04_control_structures.md)
+   - [Control Structures Tutorial](.04_control_structures/04_control_structures.md)
 
 4. **Functions**
    - Learn about functions, parameter passing, and return values.
-   - [Functions Tutorial](./05_functions.md)
+   - [Functions Tutorial](./05_functions/05_functions.md)
 
 5. **Arrays and Strings**
    - Dive into arrays and strings, exploring how to manipulate them.
